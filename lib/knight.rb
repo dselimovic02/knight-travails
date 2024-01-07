@@ -1,4 +1,6 @@
 class Knight 
+  attr_accessor :postion, :valid_turns
+
   def initialize(position)
     @position = position
     @valid_turns = valid_turns(position)
