@@ -31,7 +31,7 @@ def knight_traversal(start, finish)
 end
 
 def print_path(path)
-  puts "=> You made it in #{path.length - 1} moves!"
+  puts "=> You made it in #{path.length} moves!"
   path.each { |position| p position }
 end
 
@@ -63,6 +63,7 @@ end
 
 
 knight_traversal([0, 0], [3, 3])
+knight_traversal([0, 0], [7, 7])
 # => You made it in 3 moves! 
 # [0, 0]
 # [2, 1]
