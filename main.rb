@@ -62,7 +62,7 @@ def valid_position?(position)
 end
 
 
-knight_traversal(['dad', 0], [3, 3])
+knight_traversal([0, 0], [3, 3])
 # => You made it in 3 moves! 
 # [0, 0]
 # [2, 1]
